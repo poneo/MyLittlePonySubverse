@@ -1096,15 +1096,42 @@ hr {
 .arrow-upvoted {
     background-image:url(https://i.imgur.com/tI74bQR.png);
 }
+.arrow-downvote {
+    background-position: 0 -28px;
+}
+.arrow-downvoted {
+    background-position: -16px -28px;
+}
+.arrow-upvote {
+    background-position: 0 -12px;
+}
+.arrow-upvoted {
+    background-position: -16px -12px;
+}
 .comment .arrow-downvote,
 .comment .arrow-downvoted,
 .comment .arrow-upvote,
 .comment .arrow-upvoted {
     background-image:url(https://i.imgur.com/tI74bQR.png);
 }
+.comment .arrow-downvote {
+    background-position: -32px -24px;
+}
+.comment .arrow-downvoted {
+    background-position: -44px -24px;
+}
+.comment .arrow-upvote {
+    background-position: -32px -12px;
+}
+.comment .arrow-upvoted {
+    background-position: -44px -12px;
+}
 #manage,
 #nightmodetoggle {
     background-image:url(https://i.imgur.com/tI74bQR.png);
+}
+#manage {
+    background-position: -56px 0;
 }
 #nightmodetoggle {
     background-position: -58px -18px;
@@ -1119,30 +1146,39 @@ hr {
 /*#nightmodetoggle {
     background-image:url(https://i.imgur.com/tI74bQR.png);
 }*/
-#mail.havemail {
-    background-image:url(https://i.imgur.com/tI74bQR.png);
-}
+#mail.havemail,
 #mail.nohavemail {
     background-image:url(https://i.imgur.com/tI74bQR.png);
 }
+#mail.havemail {
+    background-position: -18px 0;
+}
+#mail.nohavemail {
+    background-position: 0 0;
+}
 
-.expando-button.selftext.collapsed {
-    background-image:url(https://i.imgur.com/tI74bQR.png);
-}
-.expando-button.selftext.collapsed:hover {
-    background-image:url(https://i.imgur.com/tI74bQR.png);
-}
-.expando-button.selftext.expanded {
-    background-image:url(https://i.imgur.com/tI74bQR.png);
-}
-.expando-button.selftext.expanded:hover {
-    background-image:url(https://i.imgur.com/tI74bQR.png);
-}
+.expando-button.selftext.collapsed,
+.expando-button.selftext.expanded,
 .expando-button.selftext.loading {
     background-image:url(https://i.imgur.com/tI74bQR.png);
 }
+.expando-button.selftext.collapsed {
+    background-position: 0 -44px;
+}
+.expando-button.selftext.collapsed:hover {
+    background-position: -16px -44px;
+}
+.expando-button.selftext.expanded {
+    background-position: 0 -60px;
+}
+.expando-button.selftext.expanded:hover {
+    background-position: -16px -60px;
+}
+.expando-button.selftext.loading {
+    background-position: 0 -76px;
+}
 .expando-button.selftext.loading:hover {
-    background-image:url(https://i.imgur.com/tI74bQR.png);
+    background-position: -16px -76px;
 }
 
 
